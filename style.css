@@ -1,0 +1,30 @@
+#container{
+height: 600px;
+width: 500px;
+border-style: groove;
+border-color:DarkCyan;
+border-width: 5px;
+background: CadetBlue;
+display:grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-gap: 30px; 
+grid-template-areas:"myArea myArea myArea . ";
+}
+
+.button{
+  font-size:40px;
+  background-color: darksalmon;
+}
+
+.operator{
+  font-size:40px;
+  background-color: lightcoral;
+}
+
+#result{
+ background-color:lightblue;
+ font-size: 70px;
+ grid-area: myArea;
+
+}
